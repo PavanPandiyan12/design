@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("/icons/2655270872ed2b2519553ee6afc68aa12905a074.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-attachment: fixed;
+    justify-content: space-between;
+    opacity: .7;
+}
+
+
+nav ul {
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+nav li {
+    list-style-type: none;
+    margin: 5px;
+    margin-inline: 30px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.324);
+}
+
+
+.myTodo {
+    width: 98%;
+    margin-top: 10px;
+
+    /* background: #D23369; */
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 1%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin-top: 5px;
+    color: black;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.324);
+    margin-bottom: 10px;
+
+}
+
+.todoList {
+    display: flex;
+    height: 100% !important;
+    width: 80%;
+    background-color: #ffffff77;
+    padding: 4px;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.todotext {
+    display: flex;
+    height: 100% !important;
+    gap: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+    /* background: #F06292; */
+    padding-inline-start: 15px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-right: 5px;
+
+}
+
+.deleteTask {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: black;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.311);
+}
+
+:hover.deleteTask {
+    background-color: black;
+}
+
+.start {
+    background: black;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 20px;
+    border: none;
+    margin-right: 7px;
+    cursor: pointer;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.311);
+}
+
+:hover.start {
+    background-color: black;
+}
+
+p {
+    margin-right: 5px;
+
+}
+
+.pText {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.751);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn1 {
+    width: 140px;
+    background: black;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 20px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.311);
+}
+
+:hover.btn1 {
+    background-color: black;
+}
+
+.inputvalue {
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.inputVal {
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    letter-spacing: .5pt;
+    padding-inline-start: 15px;
+    background-color: white;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.311);
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.311);
+}
+
+:hover.btn {
+    background-color: black;
+    color: white;
+}
+
+.line {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 1px;
+    width: 95%;
+    margin-left: 2.5%;
+    border: none;
+}
+
+.timer {
+    font-size: 20px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-weight: bolder;
+}
